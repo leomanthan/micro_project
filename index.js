@@ -7,10 +7,10 @@ var randomNumber2 = Math.floor(Math.random()*6)+1;
 const main = document.querySelectorAll('img')[1].setAttribute('src', randomdic);
 
 if (randomNumber1>randomNumber2) {
-    document.querySelector('h1').innerHTML="Player one win";
+    document.querySelector('h1').innerHTML="🚩Player one win";
 } 
 else if (randomNumber1<randomNumber2)  {
-    document.querySelector('h1').innerHTML="Player two win";
+    document.querySelector('h1').innerHTML="Player two win🚩";
 } 
 else {
     document.querySelector('h1').innerHTML="Draw";
